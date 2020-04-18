@@ -4,5 +4,5 @@ var bt = document.getElementById("btn");
 
 bt.onclick = function(){
     cx.innerHTML = "<h1>foi adicionada uma imagem a tela</h1>";
-    
+    sd.innerHTML ="<img src=img/cao.jpg>";  
 };

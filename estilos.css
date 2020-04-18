@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+text-align: center;
+font-family: "arial";
+border-bottom: 1px solid darkred;
+}
+
+#saida img{
+width: 30%;
+height: auto;
+box-shadow: 5px 5px 10px gray;
+transition: ease .5s;
+cursor: pointer;
+}
+
+#saida img:hover{
+transform: scale(1.2); /* aumenta 20% em relação ao tamanho dos 30% do código acima  */
+}
+
+
+#saida{
+text-align: center;
+}
